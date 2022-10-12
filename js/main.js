@@ -15,8 +15,33 @@ $(function () {
         $('.menu').removeClass('active');
     });
     
-
+    ScrollReveal().reveal('.statistics', {
+        reset: true,
+        // scale: 0.5,
+        distance: '100px',
+        origin: 'left',
+    });
+    ScrollReveal().reveal('.advantages', {
+        reset: true,
+        // scale: 0.5,
+        distance: '100px',
+        origin: 'top',
+    });
+    ScrollReveal().reveal('.design', {
+        reset: true,
+        // scale: 0.5,
+        distance: '100px',
+        origin: 'bottom',
+    });
+    ScrollReveal().reveal('footer', {
+        reset: true,
+        // scale: 0.5,
+        distance: '100px',
+        origin: 'right',
+    });
 })
+
+
 
 
 
